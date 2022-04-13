@@ -1,0 +1,79 @@
+#heading {
+  text-align: center;
+}
+
+#picFrame {
+    padding-top: 25px;
+    position: relative; 
+    overflow: hidden; 
+    margin: 0 auto 0 auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 60%;
+    max-width: 1000px;
+    height: 600px;
+}
+  
+.pic{
+  position: absolute;
+  transition: left 0.3s;
+  height: 600px;
+}
+
+#pic1{
+  left: 0px;
+}
+
+#pic2{
+  left: 2000px;
+}
+
+#pic3{
+  left: 4000px;
+}
+
+#pic4{
+  left: 6000px;
+}
+
+img{
+  width: 1000px;
+}
+
+#leftArrow{
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  font-size: 35px;
+  opacity: 60%;
+  padding: 15px;
+  border-radius: 10px;
+  user-select: none;
+}
+#rightArrow{
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  font-size: 35px;
+  opacity: 60%;
+  padding: 15px;
+  border-radius: 10px;
+  user-select: none;
+}
+
+#picSelector{
+  position: absolute;
+  bottom: 45px;
+  width: fit-content;
+  
+}
+
+#btnDiv{
+  position: absolute;
+  bottom: 15px;
+  display: flex; 
+  justify-content: center;
+  gap: 5px;
+  opacity: 60%;
+}
